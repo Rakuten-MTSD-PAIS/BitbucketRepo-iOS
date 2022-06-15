@@ -1,0 +1,26 @@
+{
+  "scm": "git",
+  "website": "test_web_site",
+  "name": "Design Pattern",
+  "language": "Swift",
+  "created_on": "2020-09-02",
+  "owner": {
+    "display_name": "ABC",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/users/%7B9484702e-c663-4afd-aefb-c93a8cd31c28%7D"
+      },
+      "html": {
+        "href": "https://bitbucket.org/%7B9484702e-c663-4afd-aefb-c93a8cd31c28%7D/"
+      },
+      "avatar": {
+        "href": "test_avatar_url"
+      }
+    },
+    "type": "user"
+  },
+  "updated_on": "2013-07-17T23:08:05.997544+00:00",
+  "size": 100,
+  "type": "repository",
+  "description": "test_description"
+}
