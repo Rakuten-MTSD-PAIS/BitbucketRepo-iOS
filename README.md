@@ -1,9 +1,17 @@
 # BitbucketRepo-iOS
-A sample iOS app to list public repositories of Bitbucket and display the detail on clicking the row.
+A sample iOS app to display a list public repositories of Bitbucket.
 
-### 🌟 Implement Me:
-- When user scrolls to the bottom, load more content by using `fetchMore()` if there is a next page and while fetching the loading indicator should be displayed at the bottom of the tableview.
-- Add pull-to-refresh function into table view.
+### UI Flow
+Start screen => List screen => Detail screen
+
+### Requirements
+- Display public repositories in tableview.
+- Show the detail screen on selecting the row.
+- Fetch more content on scrolling to the bottom and add to the list.
+
+### 🌟 Implement Missing Feature:
+
+- Pagination
 
 ### 🐞 Fix Me:
  - The detail view doesn't seem to display correct data, please fix it.
@@ -14,8 +22,10 @@ A sample iOS app to list public repositories of Bitbucket and display the detail
  - To validate parsing the model.
  - To check if the view model fetch data properly.
 
-### 👨🏻‍💻 Opinion:
- - What do you think about this ViewModel?
+### 👨🏻‍💻 Bonus:
+ - Remove Storyboard and apply `Coordinator` pattern.
+ - Write more test cases to cover the requirements.
+ - What do you think about this ViewModel? Share your thoughts if you find improvments in that area.
 
 
 ### Note: Do not remove `sleep(2)` statement, it's for simulating network latency.
