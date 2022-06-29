@@ -1,7 +1,7 @@
 # BitbucketRepo-iOS
 A sample iOS app to display a list public repositories of Bitbucket.
 
-### UI Flow
+### Application Flow
 Start screen => List screen => Detail screen
 
 ### Requirements
