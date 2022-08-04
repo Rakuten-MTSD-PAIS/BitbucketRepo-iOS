@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16D6E1A5289BA8260065AE8E /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 16D6E1A4289BA8260065AE8E /* SwiftyJSON */; };
+		16D6E1A8289BA8950065AE8E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 16D6E1A7289BA8950065AE8E /* Kingfisher */; };
 		A2177B5224FF400E000A3B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2177B5124FF400E000A3B30 /* AppDelegate.swift */; };
 		A2177B5624FF400E000A3B30 /* BitbucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2177B5524FF400E000A3B30 /* BitbucketViewController.swift */; };
 		A2177B5924FF400E000A3B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2177B5724FF400E000A3B30 /* Main.storyboard */; };
@@ -58,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D6E1A8289BA8950065AE8E /* Kingfisher in Frameworks */,
+				16D6E1A5289BA8260065AE8E /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +178,10 @@
 			dependencies = (
 			);
 			name = BitbucketRepo;
+			packageProductDependencies = (
+				16D6E1A4289BA8260065AE8E /* SwiftyJSON */,
+				16D6E1A7289BA8950065AE8E /* Kingfisher */,
+			);
 			productName = BitbucketRepo;
 			productReference = A2177B4E24FF400E000A3B30 /* BitbucketRepo.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +232,10 @@
 				Base,
 			);
 			mainGroup = A2177B4524FF400E000A3B30;
+			packageReferences = (
+				16D6E1A3289BA8260065AE8E /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				16D6E1A6289BA8950065AE8E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A2177B4F24FF400E000A3B30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -537,6 +549,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16D6E1A3289BA8260065AE8E /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		16D6E1A6289BA8950065AE8E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16D6E1A4289BA8260065AE8E /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16D6E1A3289BA8260065AE8E /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		16D6E1A7289BA8950065AE8E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16D6E1A6289BA8950065AE8E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2177B4624FF400E000A3B30 /* Project object */;
 }
