@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1ABA81DE667A0B3AB9194F2E /* Pods_BitbucketRepoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446A35B03741FD3CBF051D65 /* Pods_BitbucketRepoTests.framework */; };
+		16D6E1A5289BA8260065AE8E /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 16D6E1A4289BA8260065AE8E /* SwiftyJSON */; };
+		16D6E1A8289BA8950065AE8E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 16D6E1A7289BA8950065AE8E /* Kingfisher */; };
 		A2177B5224FF400E000A3B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2177B5124FF400E000A3B30 /* AppDelegate.swift */; };
 		A2177B5624FF400E000A3B30 /* BitbucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2177B5524FF400E000A3B30 /* BitbucketViewController.swift */; };
 		A2177B5924FF400E000A3B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2177B5724FF400E000A3B30 /* Main.storyboard */; };
@@ -22,7 +23,6 @@
 		A2177B8524FF7E11000A3B30 /* BitbucketDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2177B8424FF7E11000A3B30 /* BitbucketDetailViewController.swift */; };
 		A2177B8924FF8F87000A3B30 /* Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = A2177B8824FF8F87000A3B30 /* Mock.json */; };
 		A2177B8A24FF927F000A3B30 /* Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = A2177B8824FF8F87000A3B30 /* Mock.json */; };
-		F9A1480C066167FC26EFFB8C /* Pods_BitbucketRepo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58421F9CD3C401A2DFCF9DD2 /* Pods_BitbucketRepo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		446A35B03741FD3CBF051D65 /* Pods_BitbucketRepoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitbucketRepoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58421F9CD3C401A2DFCF9DD2 /* Pods_BitbucketRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitbucketRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2177B4E24FF400E000A3B30 /* BitbucketRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitbucketRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2177B5124FF400E000A3B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2177B5524FF400E000A3B30 /* BitbucketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitbucketViewController.swift; sourceTree = "<group>"; };
@@ -55,10 +53,6 @@
 		A2177B8224FF6592000A3B30 /* BitbucketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitbucketTableViewCell.swift; sourceTree = "<group>"; };
 		A2177B8424FF7E11000A3B30 /* BitbucketDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitbucketDetailViewController.swift; sourceTree = "<group>"; };
 		A2177B8824FF8F87000A3B30 /* Mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Mock.json; sourceTree = "<group>"; };
-		AC37F5F5C27E3B4C68A30394 /* Pods-BitbucketRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitbucketRepoTests.release.xcconfig"; path = "Target Support Files/Pods-BitbucketRepoTests/Pods-BitbucketRepoTests.release.xcconfig"; sourceTree = "<group>"; };
-		AC834E152CB9E01D67367714 /* Pods-BitbucketRepo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitbucketRepo.release.xcconfig"; path = "Target Support Files/Pods-BitbucketRepo/Pods-BitbucketRepo.release.xcconfig"; sourceTree = "<group>"; };
-		EF084DFDFB26CDB1ECB85D5D /* Pods-BitbucketRepoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitbucketRepoTests.debug.xcconfig"; path = "Target Support Files/Pods-BitbucketRepoTests/Pods-BitbucketRepoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F253B396424B6FEEAADA40B0 /* Pods-BitbucketRepo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitbucketRepo.debug.xcconfig"; path = "Target Support Files/Pods-BitbucketRepo/Pods-BitbucketRepo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9A1480C066167FC26EFFB8C /* Pods_BitbucketRepo.framework in Frameworks */,
+				16D6E1A8289BA8950065AE8E /* Kingfisher in Frameworks */,
+				16D6E1A5289BA8260065AE8E /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,41 +69,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ABA81DE667A0B3AB9194F2E /* Pods_BitbucketRepoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21404C0AC282824CCCF9A0E7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F253B396424B6FEEAADA40B0 /* Pods-BitbucketRepo.debug.xcconfig */,
-				AC834E152CB9E01D67367714 /* Pods-BitbucketRepo.release.xcconfig */,
-				EF084DFDFB26CDB1ECB85D5D /* Pods-BitbucketRepoTests.debug.xcconfig */,
-				AC37F5F5C27E3B4C68A30394 /* Pods-BitbucketRepoTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		2A12AF6EA59D8904F9C5A7E3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				58421F9CD3C401A2DFCF9DD2 /* Pods_BitbucketRepo.framework */,
-				446A35B03741FD3CBF051D65 /* Pods_BitbucketRepoTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		A2177B4524FF400E000A3B30 = {
 			isa = PBXGroup;
 			children = (
 				A2177B5024FF400E000A3B30 /* BitbucketRepo */,
 				A2177B6724FF4011000A3B30 /* BitbucketRepoTests */,
 				A2177B4F24FF400E000A3B30 /* Products */,
-				21404C0AC282824CCCF9A0E7 /* Pods */,
-				2A12AF6EA59D8904F9C5A7E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,17 +169,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2177B6D24FF4011000A3B30 /* Build configuration list for PBXNativeTarget "BitbucketRepo" */;
 			buildPhases = (
-				90309B5E031156F686C68A67 /* [CP] Check Pods Manifest.lock */,
 				A2177B4A24FF400E000A3B30 /* Sources */,
 				A2177B4B24FF400E000A3B30 /* Frameworks */,
 				A2177B4C24FF400E000A3B30 /* Resources */,
-				9FD9E2873A1F5B319C4D112A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BitbucketRepo;
+			packageProductDependencies = (
+				16D6E1A4289BA8260065AE8E /* SwiftyJSON */,
+				16D6E1A7289BA8950065AE8E /* Kingfisher */,
+			);
 			productName = BitbucketRepo;
 			productReference = A2177B4E24FF400E000A3B30 /* BitbucketRepo.app */;
 			productType = "com.apple.product-type.application";
@@ -216,7 +190,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2177B7024FF4011000A3B30 /* Build configuration list for PBXNativeTarget "BitbucketRepoTests" */;
 			buildPhases = (
-				A2F512D01C0DD2C07FB114FC /* [CP] Check Pods Manifest.lock */,
 				A2177B6024FF4011000A3B30 /* Sources */,
 				A2177B6124FF4011000A3B30 /* Frameworks */,
 				A2177B6224FF4011000A3B30 /* Resources */,
@@ -259,6 +232,10 @@
 				Base,
 			);
 			mainGroup = A2177B4524FF400E000A3B30;
+			packageReferences = (
+				16D6E1A3289BA8260065AE8E /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				16D6E1A6289BA8950065AE8E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A2177B4F24FF400E000A3B30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -290,70 +267,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		90309B5E031156F686C68A67 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BitbucketRepo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9FD9E2873A1F5B319C4D112A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BitbucketRepo/Pods-BitbucketRepo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BitbucketRepo/Pods-BitbucketRepo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitbucketRepo/Pods-BitbucketRepo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A2F512D01C0DD2C07FB114FC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BitbucketRepoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2177B4A24FF400E000A3B30 /* Sources */ = {
@@ -525,11 +438,10 @@
 		};
 		A2177B6E24FF4011000A3B30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F253B396424B6FEEAADA40B0 /* Pods-BitbucketRepo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y5ZM67MKM8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BitbucketRepo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -545,11 +457,10 @@
 		};
 		A2177B6F24FF4011000A3B30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC834E152CB9E01D67367714 /* Pods-BitbucketRepo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y5ZM67MKM8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BitbucketRepo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -565,7 +476,6 @@
 		};
 		A2177B7124FF4011000A3B30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF084DFDFB26CDB1ECB85D5D /* Pods-BitbucketRepoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -588,7 +498,6 @@
 		};
 		A2177B7224FF4011000A3B30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC37F5F5C27E3B4C68A30394 /* Pods-BitbucketRepoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -640,6 +549,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16D6E1A3289BA8260065AE8E /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		16D6E1A6289BA8950065AE8E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16D6E1A4289BA8260065AE8E /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16D6E1A3289BA8260065AE8E /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		16D6E1A7289BA8950065AE8E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16D6E1A6289BA8950065AE8E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2177B4624FF400E000A3B30 /* Project object */;
 }

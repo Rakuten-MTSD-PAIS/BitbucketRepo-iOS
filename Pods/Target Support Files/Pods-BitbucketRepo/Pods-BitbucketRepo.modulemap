@@ -1,6 +1,0 @@
-framework module Pods_BitbucketRepo {
-  umbrella header "Pods-BitbucketRepo-umbrella.h"
-
-  export *
-  module * { export * }
-}
